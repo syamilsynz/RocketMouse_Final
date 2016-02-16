@@ -18,6 +18,7 @@ public class CameraFollow : MonoBehaviour {
 		
 		Vector3 newCameraPosition = transform.position;
 		newCameraPosition.x = targetObjectX + distanceToTarget;
-		transform.position = newCameraPosition;    	
+		transform.position = newCameraPosition;    
+		//noob syit	
 	}
 }
